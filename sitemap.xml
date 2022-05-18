@@ -31,7 +31,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ctb.github.io/ribbity-docs/6-use-GitHub-authentication-with-ribbity/</loc>
+         <lastmod>2022-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ctb.github.io/ribbity-docs/7-use-your-own-jinja2-template-for-index.md-and-other-files/</loc>
+         <lastmod>2022-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ctb.github.io/ribbity-docs/examples/</loc>
+         <lastmod>2022-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ctb.github.io/ribbity-docs/l-intermediate/</loc>
          <lastmod>2022-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
