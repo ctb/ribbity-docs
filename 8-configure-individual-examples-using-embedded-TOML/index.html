@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://ctb.github.io/ribbity-docs/examples/">
+        <link rel="canonical" href="https://ctb.github.io/ribbity-docs/8-configure-individual-examples-using-embedded-TOML/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>All examples - ribbity docs</title>
+        <title>Example: configure individual examples using embedded TOML - ribbity docs</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -36,8 +36,8 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">All examples</a>
+                            <li class="navitem">
+                                <a href="../examples/" class="nav-link">All examples</a>
                             </li>
                             <li class="navitem">
                                 <a href="../labels/" class="nav-link">All categories</a>
@@ -50,16 +50,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" href=".." class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../labels/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -78,8 +68,16 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#all-examples" class="nav-link">All examples</a>
+            <li class="nav-item" data-level="1"><a href="#example-configure-individual-examples-using-embedded-toml" class="nav-link">Example: configure individual examples using embedded TOML</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#example" class="nav-link">Example</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#categories" class="nav-link">Categories</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -87,17 +85,25 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="all-examples">All examples</h1>
-<p><em>Go to: <a href="..">Home</a> | <a href="../labels/">All categories</a></em></p>
+<h1 id="example-configure-individual-examples-using-embedded-toml">Example: configure individual examples using embedded TOML</h1>
+<p><em><a href="https://github.com/ctb/ribbity-docs/issues/8">ctb/ribbity-docs#8</a></em></p>
 <hr />
-<p><a href="../1-Welcome-to-ribbity-Start-here/">Example: Welcome to ribbity! Start here!</a></p>
-<p><a href="../2-create-a-new-Github-repository/">Example: create a new Github repository</a></p>
-<p><a href="../3-add-some-issues-to-your-new-repository/">Example: add some issues to your new repository</a></p>
-<p><a href="../4-install-and-configure-ribbity/">Example: install and configure ribbity!</a></p>
-<p><a href="../5-run-ribbity/">Example: run ribbity</a></p>
-<p><a href="../8-configure-individual-examples-using-embedded-TOML/">Example: configure individual examples using embedded TOML</a></p>
-<p><a href="../6-use-GitHub-authentication-with-ribbity/">Example: use GitHub authentication with ribbity</a></p>
-<p><a href="../7-use-your-own-jinja2-template-for-index.md-and-other-files/">Example: use your own jinja2 template for <code>index.md</code> and other files</a></p></div>
+<p>you can set options for individual posts by using <a href="https://toml.io/en/">TOML</a>.</p>
+<p>To do this, write TOML configuration as below,</p>
+<pre><code>priority = 999 # sort order - 999 is default, lowest priority. 1 is highest.
+frontpage = false # true to show up on front page
+ignore = false # true to ignore this issue entirely
+</code></pre>
+<p>and enclose it in <code>---</code> both before and after. The TOML will then be parsed by ribbity and the options will be applied.</p>
+<p>Generally, you will want to hide these options from viewers. This can be done by enclosing them in Markdown / HTML comment markers, that is, putting &lt;!-- and --&gt; around the TOML configuration section.</p>
+<h2 id="example">Example</h2>
+<p>Here is an example - this is a screenshot of issue 1 in the editor.</p>
+<p><img width="624" alt="Screen Shot 2022-05-19 at 6 15 16 AM" src="<a href="https://user-images.githubusercontent.com/51016/169302064-ec74d91e-7161-4f78-a982-6deab7e28253.png">https://user-images.githubusercontent.com/51016/169302064-ec74d91e-7161-4f78-a982-6deab7e28253.png</a>"></p>
+<h2 id="categories">Categories</h2>
+<p>This example belongs to the following categories:</p>
+<ul>
+<li><a href="../l-intermediate/">intermediate documentation for fine tuning ribbity</a></li>
+</ul></div>
             </div>
         </div>
 
