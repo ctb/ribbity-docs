@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ctb.github.io/ribbity-docs/10-install-the-indevelopment-version-of-ribbity/</loc>
+         <lastmod>2022-05-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ctb.github.io/ribbity-docs/2-create-a-new-Github-repository/</loc>
          <lastmod>2022-05-19</lastmod>
          <changefreq>daily</changefreq>
@@ -52,6 +57,11 @@
     </url>
     <url>
          <loc>https://ctb.github.io/ribbity-docs/examples/</loc>
+         <lastmod>2022-05-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ctb.github.io/ribbity-docs/l-advanced/</loc>
          <lastmod>2022-05-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
