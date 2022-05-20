@@ -85,7 +85,7 @@
 <p><em><a href="https://github.com/ribbity-org/ribbity-docs/issues/14">ribbity-org/ribbity-docs#14</a></em></p>
 <hr />
 <p>once your configuration is working and you've built your site with ribbity, you can configure your GitHub repository to run ribbity whenever an issue is changed. The simplest way to do this is to use GitHub Actions.</p>
-<p>To set up GitHub Actions, add the file <a href="https://github.com/ctb/ribbity-docs/blob/main/.github/workflows/ribbity.yml">https://github.com/ctb/ribbity-docs/blob/main/.github/workflows/ribbity.yml</a> into the <code>.github/workflows</code> directory of your repository. Note that this workflow assumes that your ribbity config file is named <code>site-config.toml</code> and that ribbity runs in the top level directory of your repository.</p>
+<p>To set up GitHub Actions, add the file <a href="https://github.com/ribbity-org/ribbity-docs/blob/main/.github/workflows/ribbity.yml">https://github.com/ribbity-org/ribbity-docs/blob/main/.github/workflows/ribbity.yml</a> into the <code>.github/workflows</code> directory of your repository. Note that this workflow assumes that your ribbity config file is named <code>site-config.toml</code> and that ribbity runs in the top level directory of your repository.</p>
 <p>You will then need to go to settings and under 'Actions', 'General', set your workflow permissions to read and write.</p>
 <p>Now, whenever an issue is changed in any way, ribbity will run on the issue tracker and update your Web site.</p>
 <h2 id="categories">Categories</h2>
