@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/1-welcome-to-ribbity-start-here/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/1-welcome-to-ribbity-start-here/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/10-install-the-indevelopment-version-of-ribbity/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/10-install-the-indevelopment-version-of-ribbity/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/14-automatically-run-ribbity-to-update-your-site-using-github-actions/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/14-automatically-run-ribbity-to-update-your-site-using-github-actions/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/2-create-a-new-github-repository/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/2-create-a-new-github-repository/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/3-add-some-issues-to-your-new-repository/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/3-add-some-issues-to-your-new-repository/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/4-install-and-configure-ribbity/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/4-install-and-configure-ribbity/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/5-run-ribbity-for-the-first-time/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/5-run-ribbity-for-the-first-time/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/6-use-github-authentication-with-ribbity/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/6-use-github-authentication-with-ribbity/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/7-use-your-own-jinja2-template-for-index.md-and-other-files/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/7-use-your-own-jinja2-template-for-index.md-and-other-files/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/8-configure-individual-examples-using-embedded-toml/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/8-configure-individual-examples-using-embedded-toml/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/examples/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/examples/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/l-advanced/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/l-advanced/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/l-intermediate/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/l-intermediate/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/l-intro/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/l-intro/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/labels/</loc>
+         <loc>https://ribbity-org.github.io/ribbity-docs/labels/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
