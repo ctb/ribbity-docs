@@ -6,7 +6,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/1-Welcome-to-ribbity-Start-here/</loc>
+         <loc>https://ctb.github.io/ribbity-docs/1-welcome-to-ribbity-start-here/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -16,12 +16,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/14-automatically-run-ribbity-to-update-your-site-using-GitHub-Actions/</loc>
+         <loc>https://ctb.github.io/ribbity-docs/14-automatically-run-ribbity-to-update-your-site-using-github-actions/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/2-create-a-new-Github-repository/</loc>
+         <loc>https://ctb.github.io/ribbity-docs/2-create-a-new-github-repository/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -41,7 +41,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/6-use-GitHub-authentication-with-ribbity/</loc>
+         <loc>https://ctb.github.io/ribbity-docs/6-use-github-authentication-with-ribbity/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -51,7 +51,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ctb.github.io/ribbity-docs/8-configure-individual-examples-using-embedded-TOML/</loc>
+         <loc>https://ctb.github.io/ribbity-docs/8-configure-individual-examples-using-embedded-toml/</loc>
          <lastmod>2022-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>

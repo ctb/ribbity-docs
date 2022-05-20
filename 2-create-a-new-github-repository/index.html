@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://ctb.github.io/ribbity-docs/14-automatically-run-ribbity-to-update-your-site-using-GitHub-Actions/">
+        <link rel="canonical" href="https://ctb.github.io/ribbity-docs/2-create-a-new-github-repository/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Example: automatically run ribbity to update your site using GitHub Actions - ribbity docs</title>
+        <title>Example: create a new Github repository - ribbity docs</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -68,7 +68,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#example-automatically-run-ribbity-to-update-your-site-using-github-actions" class="nav-link">Example: automatically run ribbity to update your site using GitHub Actions</a>
+            <li class="nav-item" data-level="1"><a href="#example-create-a-new-github-repository" class="nav-link">Example: create a new Github repository</a>
               <ul class="nav flex-column">
             <li class="nav-item" data-level="2"><a href="#categories" class="nav-link">Categories</a>
               <ul class="nav flex-column">
@@ -81,17 +81,26 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="example-automatically-run-ribbity-to-update-your-site-using-github-actions">Example: automatically run ribbity to update your site using GitHub Actions</h1>
-<p><em><a href="https://github.com/ctb/ribbity-docs/issues/14">ctb/ribbity-docs#14</a></em></p>
+<h1 id="example-create-a-new-github-repository">Example: create a new Github repository</h1>
+<p><em><a href="https://github.com/ctb/ribbity-docs/issues/2">ctb/ribbity-docs#2</a></em></p>
 <hr />
-<p>Once your configuration is working and you've built your site with ribbity, you can configure your GitHub repository to run ribbity whenever an issue is changed. The simplest way to do this is to use GitHub Actions.</p>
-<p>To set up GitHub Actions, add the file <a href="https://github.com/ctb/ribbity-docs/blob/main/.github/workflows/ribbity.yml">https://github.com/ctb/ribbity-docs/blob/main/.github/workflows/ribbity.yml</a> into the <code>.github/workflows</code> directory of your repository. Note that this workflow assumes that your ribbity config file is named <code>site-config.toml</code> and that ribbity runs in the top level directory of your repository.</p>
-<p>You will then need to go to settings and under 'Actions', 'General', set your workflow permissions to read and write.</p>
-<p>Now, whenever an issue is changed in any way, ribbity will run on the issue tracker and update your Web site.</p>
+<!--
+# configuration in TOML, [https://toml.io/en/](https://toml.io/en/)
+---
+priority = 2
+frontpage = true
+---
+-->
+
+<p>The first thing you need to do is create a new repository on <a href="http://www.github.com">Github</a>.</p>
+<p>It can be public or private.</p>
+<p>It does not need to contain any files.</p>
+<p>Then, go create an issue in your new repository!</p>
+<p>Next: <a href="../3-add-some-issues-to-your-new-repository/">Example: add some issues to your new repository</a></p>
 <h2 id="categories">Categories</h2>
 <p>This example belongs to the following categories:</p>
 <ul>
-<li><a href="../l-intermediate/">intermediate documentation for fine tuning ribbity</a></li>
+<li><a href="../l-intro/">introductory documentation</a></li>
 </ul></div>
             </div>
         </div>
