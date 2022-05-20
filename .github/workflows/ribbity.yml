@@ -17,10 +17,10 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip     # install pip
-          python3 -m pip install ribbity           # install ribbity
-      - name: Build site
+          python3 -m pip install --upgrade ribbity           # install ribbity
+      - name: Build docs/ with ribbity
         run: ribbity do
-      - name: Build site
+      - name: Build site/ with mkdocs
         run: mkdocs build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
