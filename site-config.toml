@@ -1,7 +1,7 @@
 title = "ribbity-docs"
 site_name = "ribbity docs"
-site_url = "https://ctb.github.io/ribbity-docs/"
-github_repo = "ctb/ribbity-docs"
+site_url = "https://ribbity-org.github.io/ribbity-docs/"
+github_repo = "ribbity-org/ribbity-docs"
 
 add_pages = [ "index.md", "examples.md", "labels.md" ]
 
