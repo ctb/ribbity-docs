@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://ribbity-org.github.io/ribbity-docs/7-use-your-own-jinja2-template-for-index.md-and-other-files/">
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Example: use your own jinja2 template for `index.md` and other files - ribbity docs</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://ribbity-org.github.io/ribbity-docs/10-install-the-indevelopment-version-of-ribbity.html">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Example: install the in-development version of ribbity - ribbity docs</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -23,7 +23,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="..">ribbity docs</a>
+                <a class="navbar-brand" href="index.html">ribbity docs</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,13 +34,13 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href=".." class="nav-link">Home</a>
+                                <a href="index.html" class="nav-link">Home</a>
                             </li>
                             <li class="navitem">
-                                <a href="../examples/" class="nav-link">All examples</a>
+                                <a href="examples.html" class="nav-link">All examples</a>
                             </li>
                             <li class="navitem">
-                                <a href="../labels/" class="nav-link">All categories</a>
+                                <a href="labels.html" class="nav-link">All categories</a>
                             </li>
                         </ul>
 
@@ -68,16 +68,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#example-use-your-own-jinja2-template-for-indexmd-and-other-files" class="nav-link">Example: use your own jinja2 template for index.md and other files</a>
+            <li class="nav-item" data-level="1"><a href="#example-install-the-in-development-version-of-ribbity" class="nav-link">Example: install the in-development version of ribbity</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#example-templates" class="nav-link">Example templates</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#the-jinja2-templating-language" class="nav-link">The jinja2 templating language</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
             <li class="nav-item" data-level="2"><a href="#categories" class="nav-link">Categories</a>
               <ul class="nav flex-column">
               </ul>
@@ -89,25 +81,28 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="example-use-your-own-jinja2-template-for-indexmd-and-other-files">Example: use your own jinja2 template for <code>index.md</code> and other files</h1>
-<p><em><a href="https://github.com/ribbity-org/ribbity-docs/issues/7">ribbity-org/ribbity-docs#7</a></em></p>
+<h1 id="example-install-the-in-development-version-of-ribbity">Example: install the in-development version of ribbity</h1>
+<p><em><a href="https://github.com/ribbity-org/ribbity-docs/issues/10">ribbity-org/ribbity-docs#10</a></em></p>
 <hr />
-<p>ribbity uses jinja2 templating to build Markdown pages from GitHub issues.</p>
-<p>It comes with several default templates: <code>index.md</code>, <code>examples.md</code>, and <code>labels.md</code>, as well as <code>_generic_issue.md</code> and <code>_generic_label.md</code>; you can see the default templates <a href="https://github.com/ctb/ribbity/tree/main/ribbity/templates">here</a>.</p>
-<p>You can override any of these templates by creating a directory <code>site-templates/</code> within the directory where you're running ribbity, and putting an updated version of the template in that directory (with the same name). Templates in the <code>site-templates/</code> directory will be read before the templates included with ribbity, and so will override them.</p>
-<p>This is how projects like <a href="https://ribbity-org.github.io/ribbity-docs/">ribbity docs</a> customize the main page, by providing their own <code>index.md</code> template.</p>
-<h2 id="example-templates">Example templates</h2>
-<p>You can see some example templates at the following projects:</p>
-<ul>
-<li><a href="https://github.com/ctb/ribbity/tree/main/ribbity/templates">sourmash examples</a></li>
-<li><a href="https://github.com/ribbity-org/ribbity-docs/tree/main/site-templates">ribbity docs</a></li>
-</ul>
-<h2 id="the-jinja2-templating-language">The jinja2 templating language</h2>
-<p>Please see <a href="https://jinja.palletsprojects.com/en/3.1.x/templates/">the jinja2 template designer docs</a> for information on jinja2 templates.</p>
+<p>If you want to try out the latest in-development version of ribbity, and do so from a checked-out git repository, you can do the following:</p>
+<p>first, create a conda environment </p>
+<pre><code class="language-shell">conda create -n ribbity-dev -y python=3.8
+</code></pre>
+<p>(you can also do this in an existing conda environment).</p>
+<p>activate the environment:</p>
+<pre><code class="language-shell">conda activate ribbity-dev
+</code></pre>
+<p>and now check out and install ribbity in "developer mode":</p>
+<pre><code class="language-shell">git clone [https://github.com/ribbity-org/ribbity/](https://github.com/ribbity-org/ribbity/)
+cd ribbity
+pip install -e .
+</code></pre>
+<p>Now, when you run the ribbity commands, they will be running the code that is in the <code>ribbity/</code> git repository.</p>
+<p>So, in particular, if you update the code in the repo to the latest <code>main</code> branch with <code>git pull</code>, you will be running the latest unreleased code in ribbity.</p>
 <h2 id="categories">Categories</h2>
 <p>This example belongs to the following categories:</p>
 <ul>
-<li><a href="../l-intermediate/">intermediate documentation for fine tuning ribbity</a></li>
+<li><a href="l-advanced.html">for developers and advanced users</a></li>
 </ul></div>
             </div>
         </div>
@@ -117,11 +112,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = ".",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
