@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://ribbity-org.github.io/ribbity-docs/l-intermediate.html">
+        <link rel="canonical" href="https://ribbity-org.github.io/ribbity-docs/16-including-excluding-andor-ignoring-certain-labels.html">
         <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Category: intermediate documentation for fine tuning ribbity - ribbity docs</title>
+        <title>Example: including, excluding, and/or ignoring certain labels - ribbity docs</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
@@ -68,8 +68,24 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#category-intermediate-documentation-for-fine-tuning-ribbity" class="nav-link">Category: intermediate documentation for fine tuning ribbity</a>
+            <li class="nav-item" data-level="1"><a href="#example-including-excluding-andor-ignoring-certain-labels" class="nav-link">Example: including, excluding, and/or ignoring certain labels</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#1-exclude_labels-excludes-pages-with-those-labels" class="nav-link">1. exclude_labels excludes pages with those labels</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#2-include_only_labels-includes-only-pages-with-at-least-one-of-those-labels" class="nav-link">2. include_only_labels includes only pages with at least one of those labels</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#3-ignore_labels-provides-labels-to-be-ignored-for-cross-referencing-etc" class="nav-link">3. ignore_labels provides labels to be ignored for cross-referencing etc.</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#categories" class="nav-link">Categories</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -77,12 +93,31 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="category-intermediate-documentation-for-fine-tuning-ribbity">Category: intermediate documentation for fine tuning ribbity</h1>
-<p><a href="16-including-excluding-andor-ignoring-certain-labels.html">Example: including, excluding, and/or ignoring certain labels</a></p>
-<p><a href="14-automatically-run-ribbity-to-update-your-site-using-github-actions.html">Example: automatically run ribbity to update your site using GitHub Actions</a></p>
-<p><a href="8-configure-individual-examples-using-embedded-toml.html">Example: configure individual examples using embedded TOML</a></p>
-<p><a href="7-use-your-own-jinja2-template-for-index.md-and-other-files.html">Example: use your own jinja2 template for <code>index.md</code> and other files</a></p>
-<p><a href="6-use-github-authentication-with-ribbity.html">Example: use GitHub authentication with ribbity</a></p></div>
+<h1 id="example-including-excluding-andor-ignoring-certain-labels">Example: including, excluding, and/or ignoring certain labels</h1>
+<p><em><a href="https://github.com/ribbity-org/ribbity-docs/issues/16">ribbity-org/ribbity-docs#16</a></em></p>
+<hr />
+<h2 id="1-exclude_labels-excludes-pages-with-those-labels">1. <code>exclude_labels</code> excludes pages with those labels</h2>
+<p><code>exclude_labels</code> contains a list of label names that is used to exclude pages with those labels from being built. For example, setting:</p>
+<pre><code>exclude_labels = [ &quot;exclude-me&quot; ]
+</code></pre>
+<p>would prevent any issue with the label named <code>exclude-me</code> from being included in the ribbity site.</p>
+<h2 id="2-include_only_labels-includes-only-pages-with-at-least-one-of-those-labels">2. <code>include_only_labels</code> includes <em>only</em> pages with at least one of those labels</h2>
+<p>Likewise, <code>include_only_labels</code> contains a list of label names that is used to choose pages to build. For example,
+setting:</p>
+<pre><code>include_only_labels = [ &quot;include-only-me&quot; ]
+</code></pre>
+<p>means that only pages with the label named <code>include-only-me</code> will be built.</p>
+<h2 id="3-ignore_labels-provides-labels-to-be-ignored-for-cross-referencing-etc">3. <code>ignore_labels</code> provides labels to be ignored for cross-referencing etc.</h2>
+<p>You may want to ignore various labels from showing up in labels.md and elsewhere; most specifically, if you have only one label in <code>include_only_labels</code>, then that's going to be a pretty meaningless label for cross-referencing (since all pages will have it!)</p>
+<p>So,</p>
+<pre><code>ignore_labels = [ &quot;include-only-me&quot; ]
+</code></pre>
+<p>will omit any mention of that label on any page.</p>
+<h2 id="categories">Categories</h2>
+<p>This example belongs to the following categories:</p>
+<ul>
+<li><a href="l-intermediate.html">intermediate documentation for fine tuning ribbity</a></li>
+</ul></div>
             </div>
         </div>
 

@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ribbity-org.github.io/ribbity-docs/16-including-excluding-andor-ignoring-certain-labels.html</loc>
+         <lastmod>2022-07-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ribbity-org.github.io/ribbity-docs/2-create-a-new-github-repository.html</loc>
          <lastmod>2022-07-05</lastmod>
          <changefreq>daily</changefreq>
